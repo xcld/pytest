@@ -9,7 +9,7 @@
 * [6.成员运算](./calculation/README.md)
 * [7.身份运算](./calculation/README.md)
 ## 二、基本数据类型
-* [1.数字](./datatype/README.md)
+* [1.数字](datatype/Number.md)
 * 2.布尔值
 * 3.字符串
 * 4.列表
