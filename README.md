@@ -11,7 +11,7 @@
 ## 二、基本数据类型
 * [1.数字](./datatype/Number.md)
 * [2.布尔值](./datatype/Boolean.md)
-* [3.字符串]()
+* [3.字符串](./datatype/String1.md)
 * 4.列表
 * 5.元组
 * 6.字典（无序）
