@@ -13,5 +13,5 @@
 * [2.布尔值](./datatype/Boolean.md)
 * [3.字符串](./datatype/String1.md)
 * [4.列表](./datatype/list.md)
-* 5.元组
-* 6.字典（无序）
+* [5.元组](./datatype/tuple.md)
+* [6.字典（无序）](./datatype/Dictionary.md)
