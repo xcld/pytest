@@ -12,6 +12,6 @@
 * [1.数字](./datatype/Number.md)
 * [2.布尔值](./datatype/Boolean.md)
 * [3.字符串](./datatype/String1.md)
-* 4.列表
+* [4.列表](./datatype/list.md)
 * 5.元组
 * 6.字典（无序）
