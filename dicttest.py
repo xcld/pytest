@@ -3,7 +3,7 @@ new={"age":18,"name":"charles"}
 new1=dict({"from":"China","when":"2018"})
 new4=[12,1,4,14,1445,65]
 new_dict=dict(enumerate(new4))
-new5=new1.get("from")
+new5=new1.get("from")###获取from 值元素
 new6=new1.fromkeys(["d","c","e","f"],[])
 new6["d"].append("*")
 new3=len(new1)
