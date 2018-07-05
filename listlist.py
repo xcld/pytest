@@ -11,4 +11,4 @@ li.append(("hao","hao","kai","xin"))
 print(li)
 del li[6]
 print(li)
-print(egli.count("you"))
+print(egli.count("you"))  ##
