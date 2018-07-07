@@ -16,3 +16,7 @@ l3[1]=100
 print(l3)
 l3[1:2]=["100(new)"]
 print(l3)
+li = ["alex","eric","rain"]
+a = "_".join(li)
+print(a)
+
