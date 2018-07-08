@@ -21,5 +21,5 @@ b = int(input("请输入商品编号："))
 if b <= len(a) and b >0:
     print(a[b - 1])
 else:
-    print("请输入正确的商品序号")
+    print("您输入商品编号有误，请输入正确的商品编号!")
 
