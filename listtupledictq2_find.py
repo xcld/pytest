@@ -8,12 +8,31 @@
 '''
 li = ["alec", " aric", "Alex", "Tony", "rain"]
 tu = ("alec", " aric", "Alex", "Tony", "rain")
-dic = {'k1': "alex", 'k2': ' aric',  "k3": "Alex", "k4": "Tony"}
-l3=l2=[1,'a',3,4,'heart']
-li.remove("alec")
-l3[1]=2
-s='djiengins'
-l4=list(s)
+dic = {'k1': "alex", 'k2': ' Aric', "k3": "Alex", "k4": "Tony"}
+
+for a in range(len(li)):
+    li[a] = li[a].replace(" ", "")
 print(li)
-print(l3)
-print(l4)
+
+tu = list(tu)
+for b in range(len(tu)):
+    tu[b] = tu[b].replace(" ", "")
+tu = tuple(tu)
+print(tu)
+
+for c in dic:
+    dic[c] = dic[c].replace(" ", "")
+print(dic)
+
+for a1 in li:
+    if (a1.startswith("a") or a1.startswith("A")) and a1.endswith("c"):
+        print(a1)
+
+for b1 in tu:
+    if (b1.startswith("a") or b1.startswith("A")) and b1.endswith("c"):
+        print(b1)
+
+for c1 in dic:
+    c2 = dic[c1].strip()
+    if (c2.startswith("a") or c2.startswith("A")) and c2.endswith("c"):
+        print(c2)
