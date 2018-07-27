@@ -15,4 +15,4 @@
 * [4.列表](./datatype/list.md)
 * [5.元组](./datatype/tuple.md)
 * [6.字典（无序）](./datatype/Dictionary.md)
-* [7.集合（无序）](./datatype/aggregate .md)
+* [7.集合（无序）](./datatype/aggregate.md)
