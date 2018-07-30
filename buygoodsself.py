@@ -11,15 +11,17 @@ for a,b in enumerate(goods, 1):
 sum = 0
 while 1:
     bh = int(input("请输入商品编号："))
-    ym=[]
     if bh <= a and bh >0:
         print(goods[bh - 1])
-        ym1 = ym.append(goods[bh - 1].get('name'))
+        ym=[]
+        # ym1 = ym.append(goods[bh - 1].get('name'))
         sum1 = goods[bh - 1].get('price')
         print(sum1)
-        print(ym1)
+        # print(ym)
+        ym.append(goods[bh - 1].get('name'))
         sum += sum1
         print(sum)
+        print(ym)
     # print(a
     else:
         print("您输入商品编号有误，请输入正确的商品编号!")
