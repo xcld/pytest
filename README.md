@@ -8,6 +8,7 @@
 * [5.位运算](./calculation/README.md)
 * [6.成员运算](./calculation/README.md)
 * [7.身份运算](./calculation/README.md)
+* [8.三目运算](./calculation/README.md)
 ## 二、基本数据类型
 * [1.数字](./datatype/Number.md)
 * [2.布尔值](./datatype/Boolean.md)
