@@ -51,20 +51,20 @@
 # else:
 #     print("你的得分评为E！")
 
-total = 0
-count = 0
-while True:
-    try:
-        line = input("请输入一个整数：")
-        if line:
-            try:
-                Num = int(line)
-            except ValueError as err:
-                print(err)
-                continue
-            total += Num
-            count += 1
-        else:
-            break
-    if count:
-        print("count=",count,"total=",total,"mean =",total/count)
+# total = 0
+# count = 0
+# while True:
+#     try:
+#         line = input("请输入一个整数：")
+#         if line:
+#             try:
+#                 Num = int(line)
+#             except ValueError as err:
+#                 print(err)
+#                 continue
+#             total += Num
+#             count += 1
+#         else:
+#             break
+#     if count:
+#         print("count=",count,"total=",total,"mean =",total/count)
