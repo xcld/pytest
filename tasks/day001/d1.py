@@ -31,4 +31,40 @@
 # else:
 #     print("曾经有份针织的爱情摆在我面面，我妹有珍惜，直到……算了活明白了！")
 
+#
+# Iput = str(input("请输麻花藤！："))
+# Com = "麻花藤"
+# if Iput == Com:
+#     print("你真聪明！")
+# else:
+#     print("你是大聪明！")
 
+# Score = float(input("请输入一个分数（成绩）："))
+# if Score >= 90:
+#     print("你的得分评为A！")
+# elif Score >= 80:
+#     print("你的得分评为B！")
+# elif Score >= 70:
+#     print("你的得分评为C！")
+# elif Score >= 60:
+#     print("你的得分评为D！")
+# else:
+#     print("你的得分评为E！")
+
+total = 0
+count = 0
+while True:
+    try:
+        line = input("请输入一个整数：")
+        if line:
+            try:
+                Num = int(line)
+            except ValueError as err:
+                print(err)
+                continue
+            total += Num
+            count += 1
+        else:
+            break
+    if count:
+        print("count=",count,"total=",total,"mean =",total/count)
